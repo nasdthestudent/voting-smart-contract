@@ -1,6 +1,6 @@
 [![Made by Safta Nasdalihin](https://img.shields.io/badge/Made%20by-Safta_Nasdalihin-blue)](https://github.com/nasdthestudent)
 
-# 🧮 Voting Smart Contract – Solidity Practice
+# 🧮 Voting Smart Contract – Solidity Practice #2
 
 A decentralized voting system smart contract designed for transparency and immutability. Built in Solidity and deployed to the Sepolia Testnet, this contract ensures that each address can vote only once. Ideal for learning Ethereum fundamentals and experimenting with election logic on the blockchain.
 
