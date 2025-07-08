@@ -20,11 +20,15 @@ A decentralized voting system smart contract designed for transparency and immut
 
 ## 🚀 How It Works
 
-- Voters interact with the contract through the `vote()` function by selecting a candidate.
-- Each Ethereum address is allowed to vote only once. The contract keeps track of voters using a mapping.
-- Votes are counted and stored on-chain in real time.
-- Anyone can call the `getResult()` function to check the current vote count.
-- All interactions are transparent and can be verified on the blockchain.
+This smart contract works like a digital voting box on the blockchain.
+
+- There are two fixed candidates in the code. People can vote by calling a function and choosing one of them.
+- Each wallet address can only vote once — the contract remembers who's already voted.
+- The vote counts are stored on-chain, so no one can secretly change the results.
+- Anyone can check the vote results at any time by calling a simple function — no need for admin approval.
+- Since it's on the Ethereum testnet, everything is transparent and verifiable on [Etherscan](https://sepolia.etherscan.io).
+
+In short: it’s a trustless voting system — no middleman, no edits, no funny business. Just clean code doing its job.
 
 
 ## 🔗 Deployed Contract
